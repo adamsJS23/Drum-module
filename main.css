@@ -98,3 +98,17 @@ section {
 }
 
 
+@media only screen and (min-width:37em){
+  .drum__gallery > * {
+    width: 30%;
+  }
+
+  .drum__gallery div:nth-of-type(2) {
+    display: block;
+  }
+
+  .drum__gallery {
+    justify-content: flex-end;
+  }
+}
+
