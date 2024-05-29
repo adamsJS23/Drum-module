@@ -71,7 +71,7 @@ section {
 }
 
 .drum__gallery > * {
-  width: 45%;
+  width: calc(50% - 2rem);
   aspect-ratio: 1/1;
   border-radius: 5px;
 }
@@ -90,13 +90,12 @@ section {
 }
 
 @media only screen and (min-width: 37.5em) {
-
   section {
     padding: 7rem 4rem;
   }
 
   .drum__gallery > * {
-    width: 30%;
+    width: calc(34.1% - 2rem);
   }
 
   .drum__gallery div:nth-of-type(2) {
@@ -104,12 +103,11 @@ section {
   }
 
   .drum__gallery {
-  justify-content: flex-start;
+    justify-content: flex-start;
   }
 }
 
 @media only screen and (min-width: 64em) {
-
   section {
     display: flex;
     justify-content: space-between;
@@ -133,7 +131,4 @@ section {
     justify-content: flex-end;
   }
 
-  .drum__gallery > * {
-    width: 30%;
-  }
 }
